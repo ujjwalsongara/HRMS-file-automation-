@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/homePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/profilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/profilePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +51,12 @@
     "TestNG.loginTest.FirstTest.executor": "Run",
     "TestNG.profileScreenTest.executor": "Run",
     "TestNG.profileScreenTest.homePageTest.executor": "Run",
+    "TestNG.profileTest.executor": "Run",
     "TestNG.profileTest.homePageTest.executor": "Run",
-    "git-widget-placeholder": "test",
+    "git-widget-placeholder": "InfowindUpdate",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mahen/IdeaProjects/InfowindsHRMS",
+    "last_opened_file_path": "C:/Users/mahen/IdeaProjects/HRMSAutomation",
     "onboarding.tips.debug.path": "C:/Users/mahen/IdeaProjects/InfowindsHRMS/src/main/java/org/example/Main.java"
   }
 }]]></component>
@@ -61,7 +66,7 @@
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.loginTest.FirstTest">
+  <component name="RunManager" selected="TestNG.profileTest">
     <configuration name="C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -107,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="profileScreenTest.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="profileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -116,9 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.profileScreenTest" />
-      <option name="METHOD_NAME" value="homePageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.profileTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.loginTest.FirstTest" />
+        <item itemvalue="TestNG.profileTest" />
         <item itemvalue="TestNG.profileTest.homePageTest" />
-        <item itemvalue="TestNG.C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml" />
-        <item itemvalue="TestNG.profileScreenTest.homePageTest" />
         <item itemvalue="TestNG.profileScreenTest" />
+        <item itemvalue="TestNG.loginTest.FirstTest" />
+        <item itemvalue="TestNG.C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +167,17 @@
       <updated>1735628547481</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

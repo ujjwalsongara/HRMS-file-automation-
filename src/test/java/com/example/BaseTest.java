@@ -18,8 +18,8 @@ import java.time.Duration;
 public class BaseTest {
 
     protected WebDriver driver ;
-    public long beforeTime =System.currentTimeMillis();
-    public long afterTime =System.currentTimeMillis();
+    public long beforeTime =System.nanoTime();
+    public long afterTime =System.nanoTime();
     public String username = ApplicationProperties.INSTANCE.getUsername();
     public String password = ApplicationProperties.INSTANCE.getPassword();
 
@@ -27,7 +27,6 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite(){
-
         log.info("Test Started");
     }
 
