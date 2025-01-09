@@ -93,7 +93,12 @@ public class profilePage extends BasePage{
         dateOfBirthInput.sendKeys("01/01/1887");
 
         aboutInput.click();
-        aboutInput.sendKeys("Automation testing tools are essential in modern software development as they help streamline testing processes, reduce manual effort, and improve efficiency. Tools like Selenium, JUnit, and TestNG provide powerful frameworks for automating web and unit tests, ensuring faster and more reliable releases. Selenium is a widely used open-source tool for automating browsers, capable of simulating user interactions across different browsers and platforms. JUnit and TestNG are testing frameworks that integrate well with Selenium, allowing for structured test execution, parallel test runs, and robust reporting. For continuous integration, tools like Jenkins automate the entire build and test cycle, ensuring that code changes are continuously validated. Appium is another excellent tool for automating mobile applications, supporting both Android and iOS platforms. Together, these tools form a comprehensive ecosystem that enhances test coverage, accelerates development cycles, and ensures software quality through automated testing.");
+        aboutInput.sendKeys("Automation testing tools are essential in modern software development as they help streamline testing processes, reduce manual effort, and improve efficiency. " +
+                "Tools like Selenium, JUnit, and TestNG provide powerful frameworks for automating web and unit tests, ensuring faster and more reliable releases. Selenium is a widely used open-source tool " +
+                "for automating browsers, capable of simulating user interactions across different browsers and platforms. " +
+                "JUnit and TestNG are testing frameworks that integrate well with Selenium, allowing for structured test execution, parallel test runs, and robust reporting. For continuous integration, " +
+                "tools like Jenkins automate the entire build and test cycle, ensuring that code changes are continuously validated. Appium is another excellent tool for automating mobile applications," +
+                " supporting both Android and iOS platforms. Together, these tools form a comprehensive ecosystem that enhances test coverage, accelerates development cycles, and ensures software quality through automated testing.");
 
         cancelButton.click();
 

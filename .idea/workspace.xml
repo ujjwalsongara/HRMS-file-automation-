@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/profilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/profilePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,8 @@
     "TestNG.LoginTest.executor": "Run",
     "TestNG.homeTest.executor": "Run",
     "TestNG.homeTest.homePageTest.executor": "Run",
+    "TestNG.jobDeskTest.executor": "Run",
+    "TestNG.jobDeskTest.jobDeskPageTest.executor": "Run",
     "TestNG.loginTest.FirstTest.executor": "Run",
     "TestNG.profileScreenTest.executor": "Run",
     "TestNG.profileScreenTest.homePageTest.executor": "Run",
@@ -66,18 +63,8 @@
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.profileTest">
-    <configuration name="C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InfowindsHRMS" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loginTest.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.jobDeskTest">
+    <configuration name="jobDeskTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +73,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.loginTest" />
-      <option name="METHOD_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.jobDeskTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobDeskTest.jobDeskPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InfowindsHRMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.jobDeskTest" />
+      <option name="METHOD_NAME" value="jobDeskPageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.jobDeskTest" />
+        <item itemvalue="TestNG.jobDeskTest.jobDeskPageTest" />
         <item itemvalue="TestNG.profileTest" />
         <item itemvalue="TestNG.profileTest.homePageTest" />
         <item itemvalue="TestNG.profileScreenTest" />
-        <item itemvalue="TestNG.loginTest.FirstTest" />
-        <item itemvalue="TestNG.C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml" />
       </list>
     </recent_temporary>
   </component>
