@@ -18,15 +18,13 @@ public class logoutPage extends BasePage{
         PageFactory.initElements(getWebDriver(), this);
     }
 
-    public void employeeDropDownScreen() throws InterruptedException {
+    public void logoutScreen(){
 
         waitWebElement(profileDropdown, driver);
         profileDropdown.click();
 
         waitWebElement(logoutButton, driver);
         logoutButton.click();
-
-        Thread.sleep(3000);
 
     }
 }

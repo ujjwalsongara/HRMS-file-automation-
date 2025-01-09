@@ -2,7 +2,6 @@
 <suite name="Suite">
     <test name="Test" parallel="classes" thread-count="5">
         <parameter name="url" value="https://payday.infowindtech.biz/admin/users/login"> </parameter>
-
         <classes>
             <class name="com.example.tests.homeTest"/>
             <class name="com.example.tests.loginTest"/>
