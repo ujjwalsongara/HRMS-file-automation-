@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/logoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/logoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/profileScreenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/profileScreenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,8 @@
     "TestNG.homeTest.homePageTest.executor": "Run",
     "TestNG.jobDeskTest.executor": "Run",
     "TestNG.jobDeskTest.jobDeskPageTest.executor": "Run",
+    "TestNG.leaveStatusTest.executor": "Run",
+    "TestNG.leaveTest.leaveTabTest.executor": "Run",
     "TestNG.loginTest.FirstTest.executor": "Run",
     "TestNG.profileScreenTest.executor": "Run",
     "TestNG.profileScreenTest.homePageTest.executor": "Run",
@@ -63,7 +67,7 @@
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.jobDeskTest">
+  <component name="RunManager" selected="TestNG.leaveStatusTest">
     <configuration name="jobDeskTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
@@ -99,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="profileScreenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="leaveStatusTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +112,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.profileScreenTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveStatusTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leaveTest.leaveTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InfowindsHRMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveTest" />
+      <option name="METHOD_NAME" value="leaveTabTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,31 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="profileTest.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InfowindsHRMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.profileTest" />
-      <option name="METHOD_NAME" value="homePageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.leaveStatusTest" />
+        <item itemvalue="TestNG.leaveTest.leaveTabTest" />
         <item itemvalue="TestNG.jobDeskTest" />
         <item itemvalue="TestNG.jobDeskTest.jobDeskPageTest" />
         <item itemvalue="TestNG.profileTest" />
-        <item itemvalue="TestNG.profileTest.homePageTest" />
-        <item itemvalue="TestNG.profileScreenTest" />
       </list>
     </recent_temporary>
   </component>
