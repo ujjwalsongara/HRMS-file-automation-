@@ -21,13 +21,13 @@ public class homeTest extends BaseTest {
 
     @Test
     @Parameters("url")
-    public void homePageTest (@Optional String url) throws InterruptedException {
+    public void homePageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
 
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
         homePage = new homePage(driver);
         homePage.homeScreen();
@@ -36,6 +36,7 @@ public class homeTest extends BaseTest {
         sidePage.sideBarPage();
 
     }
+
     @AfterTest
     public void afterTest() {
         log.info("test completed");

@@ -1,8 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.attendanceDailyLogPage;
-import com.example.pages.attendanceRequestPage;
+import com.example.pages.attendancePages.attendanceRequestPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -15,7 +14,7 @@ import org.testng.annotations.Test;
 public class attendanceRequestTest extends BaseTest {
 
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.attendanceRequestPage attendanceRequestPage;
+    private com.example.pages.attendancePages.attendanceRequestPage attendanceRequestPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test

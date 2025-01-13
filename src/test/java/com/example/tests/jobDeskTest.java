@@ -19,12 +19,12 @@ public class jobDeskTest extends BaseTest {
 
     @Test
     @Parameters("url")
-    public void jobDeskPageTest (@Optional String url) throws InterruptedException {
+    public void jobDeskPageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
         jobDeskPage = new jobDeskPage(driver);
         jobDeskPage.jobDesk();

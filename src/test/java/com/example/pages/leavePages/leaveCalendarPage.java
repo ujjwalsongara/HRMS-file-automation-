@@ -1,12 +1,13 @@
-package com.example.pages;
+package com.example.pages.leavePages;
 
+import com.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class leaveCalendarPage extends BasePage{
+public class leaveCalendarPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[3]/a")
     private WebElement leaveButton;
@@ -19,10 +20,10 @@ public class leaveCalendarPage extends BasePage{
 
     public leaveCalendarPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(getWebDriver(),this);
+        PageFactory.initElements(getWebDriver(), this);
     }
 
-    public void calendarPage () throws InterruptedException {
+    public void calendarPage() throws InterruptedException {
         Thread.sleep(2000);
         leaveButton.click();
 

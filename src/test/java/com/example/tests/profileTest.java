@@ -19,13 +19,13 @@ public class profileTest extends BaseTest {
 
     @Test
     @Parameters("url")
-    public void homePageTest (@Optional String url) throws InterruptedException {
+    public void homePageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
 
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
         profilePage = new profilePage(driver);
         profilePage.profileScreenPage();
@@ -40,5 +40,4 @@ public class profileTest extends BaseTest {
             driver.quit();
         }
     }
-
 }

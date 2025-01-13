@@ -1,8 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.leaveCalendarPage;
-import com.example.pages.leaveRequestPage;
+import com.example.pages.leavePages.leaveCalendarPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -13,8 +12,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class leaveCalendarTest extends BaseTest {
+
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.leaveCalendarPage leaveCalendarPage;
+    private com.example.pages.leavePages.leaveCalendarPage leaveCalendarPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test
@@ -26,8 +26,8 @@ public class leaveCalendarTest extends BaseTest {
         loginPage = new loginPage(driver, url);
         loginPage.login(username, password);
 
-       leaveCalendarPage = new leaveCalendarPage(driver);
-       leaveCalendarPage.calendarPage();
+        leaveCalendarPage = new leaveCalendarPage(driver);
+        leaveCalendarPage.calendarPage();
 
     }
 
@@ -39,5 +39,4 @@ public class leaveCalendarTest extends BaseTest {
             driver.quit();
         }
     }
-
 }

@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class profilePage extends BasePage{
+public class profilePage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"app\"]/div/div[1]/nav/div/div/div[3]/ul/li[5]")
     private WebElement profileDropdown;
@@ -48,7 +48,7 @@ public class profilePage extends BasePage{
     private WebElement cancelButton;
 
 
-    @FindBy(id="v-pills-Change Password-tab")
+    @FindBy(id = "v-pills-Change Password-tab")
     private WebElement changePasswordTab;
 
     @FindBy(id = "v-pills-Activity Log-tab")
@@ -58,6 +58,7 @@ public class profilePage extends BasePage{
         super(driver);
         PageFactory.initElements(getWebDriver(), this);
     }
+
     public void profileScreenPage() throws InterruptedException {
 
         waitWebElement(profileDropdown, driver);

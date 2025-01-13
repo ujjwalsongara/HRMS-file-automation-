@@ -1,12 +1,13 @@
-package com.example.pages;
+package com.example.pages.leavePages;
 
+import com.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class leaveRequestPage extends BasePage{
+public class leaveRequestPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[3]/a")
     private WebElement leaveButton;
@@ -35,10 +36,10 @@ public class leaveRequestPage extends BasePage{
 
     public leaveRequestPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(getWebDriver(),this);
+        PageFactory.initElements(getWebDriver(), this);
     }
 
-    public void LeaveRequest () throws InterruptedException {
+    public void LeaveRequest() throws InterruptedException {
         Thread.sleep(2000);
         leaveButton.click();
 
@@ -58,8 +59,7 @@ public class leaveRequestPage extends BasePage{
         waitWebElement(seeRejectButton, driver);
         seeRejectButton.click();
 
-
-        waitWebElement(requestLeaveButton,driver);
+        waitWebElement(requestLeaveButton, driver);
         requestLeaveButton.click();
 
         Thread.sleep(3000);

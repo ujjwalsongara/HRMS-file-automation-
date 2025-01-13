@@ -19,6 +19,9 @@ public class homePage extends BasePage {
     @FindBy(xpath = "//*[@id=\"app\"]/div/div[1]/nav/div/div/div[1]/button[1]")
     private WebElement dropdownButton;
 
+    @FindBy(xpath = "//*[@id=\"profileDropdown\"]/div[1]/p")
+    WebElement userNameHeading;
+
 
     public homePage(WebDriver driver) {
         super(driver);
@@ -28,23 +31,23 @@ public class homePage extends BasePage {
 
     public void homeScreen() throws InterruptedException {
 
-        waitWebElement(notificationButton ,driver);
+        waitWebElement(notificationButton, driver);
         notificationButton.click();
         Assert.assertTrue(notificationButton.isEnabled(), "notification button is not enabled");
 
         waitWebElement(langButton, driver);
         langButton.click();
-        Assert.assertTrue(langButton.isEnabled() ,"language buttons not enabled");
-
+        Assert.assertTrue(langButton.isEnabled(), "language buttons not enabled");
 
         waitWebElement(dropdownButton, driver);
 //        dropdownButton.click();
-
         Actions actions = new Actions(driver);
 //        actions.doubleClick(dropdownButton).perform();
         actions.moveToElement(dropdownButton).click().pause(10).click().pause(10).click().perform();
 
-
+        Thread.sleep(2000);
+        Assert.assertEquals(userNameHeading.getText(), "Shalini Choudhary\n" +
+                "Employee", "Page heading does not match!");
 
         Thread.sleep(3000);
     }

@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.*;
 
 
-public class profileScreenTest extends BaseTest{
+public class profileScreenTest extends BaseTest {
 
     private com.example.pages.loginPage loginPage;
     private logoutPage LogoutPage;
@@ -20,18 +20,19 @@ public class profileScreenTest extends BaseTest{
 
     @Test
     @Parameters("url")
-    public void homePageTest (@Optional String url) throws InterruptedException {
+    public void homePageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
 
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
         LogoutPage = new logoutPage(driver);
         LogoutPage.logoutScreen();
 
     }
+
     @AfterTest
     public void afterTest() {
         log.info("test completed");
@@ -40,5 +41,4 @@ public class profileScreenTest extends BaseTest{
             driver.quit();
         }
     }
-
 }
