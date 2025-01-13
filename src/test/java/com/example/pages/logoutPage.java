@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class logoutPage extends BasePage{
+public class logoutPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"app\"]/div/div[1]/nav/div/div/div[3]/ul/li[5]")
     private WebElement profileDropdown;
@@ -18,7 +18,7 @@ public class logoutPage extends BasePage{
         PageFactory.initElements(getWebDriver(), this);
     }
 
-    public void logoutScreen(){
+    public void logoutScreen() {
 
         waitWebElement(profileDropdown, driver);
         profileDropdown.click();

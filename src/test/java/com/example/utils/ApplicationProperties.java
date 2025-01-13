@@ -21,9 +21,15 @@ public enum ApplicationProperties {
         return properties.getProperty("baseUrl");
     }
 
-    public String getUsername() { return properties.getProperty("username");}
-    public String getPassword(){ return properties.getProperty("password");}
+    public String getUsername() {
+        return properties.getProperty("username");
+    }
 
-    public String setHeadless() { return properties.getProperty("setHeadless");}
+    public String getPassword() {
+        return properties.getProperty("password");
+    }
+
+    public String setHeadless() {
+        return properties.getProperty("setHeadless");
+    }
 }
-

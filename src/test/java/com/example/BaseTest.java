@@ -17,53 +17,37 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    protected WebDriver driver ;
-    public long beforeTime =System.nanoTime();
-    public long afterTime =System.nanoTime();
+    protected WebDriver driver;
+    public long beforeTime = System.nanoTime();
+    public long afterTime = System.nanoTime();
     public String username = ApplicationProperties.INSTANCE.getUsername();
     public String password = ApplicationProperties.INSTANCE.getPassword();
 
     Logger log = LoggerFactory.getLogger(BaseTest.class);
 
     @BeforeSuite
-    public void beforeSuite(){
+    public void beforeSuite() {
         log.info("Test Started");
     }
 
     @AfterSuite
-    public void afterSuite(){
+    public void afterSuite() {
         log.info("Test case is End");
-        log.info("total execution "+(afterTime - beforeTime)+"ms");
+        log.info("total execution " + (afterTime - beforeTime) + "ms");
     }
 
-    public void waitWebElement(WebElement element,WebDriver driver){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+    public void waitWebElement(WebElement element, WebDriver driver) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public WebDriver getWebDriver () {
+    public WebDriver getWebDriver() {
 
-//        System.setProperty("webDriver.Chrome.driver","src/main/resources/chromedriver.exe");
-//        ChromeOptions option = new ChromeOptions();
-//        option.addArguments("--remote-allow-origins =*");
-//        //     option.setHeadless(Boolean.parseBoolean(ApplicationProperties.INSTANCE.setHeadless()));
-//        driver = new ChromeDriver(option);
-//        return driver;
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions option = new ChromeOptions();
         option.addArguments("--remote-allow-origins=*");
 //        option.addArguments("--headless=new");
-//         option.setHeadless(Boolean.parseBoolean(ApplicationProperties.INSTANCE.setHeadless()));
         driver = new ChromeDriver(option);
-
         return driver;
-
     }
-
 }
-
-// ChromeOptions options = new ChromeOptions();
-//options.addArguments("--headless=new");
-//    WebDriver driver = new ChromeDriver(options);
-// driver.get("https://selenium.dev);
-//       driver.quit();

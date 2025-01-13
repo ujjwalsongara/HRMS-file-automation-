@@ -1,12 +1,13 @@
-package com.example.pages;
+package com.example.pages.leavePages;
 
+import com.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class leaveStatusPage extends BasePage{
+public class leaveStatusPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[3]/a")
     private WebElement leaveButton;
@@ -32,7 +33,7 @@ public class leaveStatusPage extends BasePage{
     @FindBy(xpath = "//*[@id=\"app\"]/div/div[2]/div/div/div[3]/div[1]/ul/li[6]/a")
     private WebElement thisYearTab;
 
-    @FindBy(id ="leave_duration-undefined")
+    @FindBy(id = "leave_duration-undefined")
     private WebElement leaveDuration;
 
     public leaveStatusPage(WebDriver driver) {
@@ -68,7 +69,5 @@ public class leaveStatusPage extends BasePage{
         leaveDuration.click();
 
         Thread.sleep(3000);
-
     }
-
 }

@@ -1,17 +1,18 @@
-package com.example.pages;
+package com.example.pages.attendancePages;
 
+import com.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class attendanceDailyLogPage extends BasePage{
+public class attendanceDailyLogPage extends BasePage {
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[4]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[4]/a")
     private WebElement attendanceButton;
 
-    @FindBy (xpath = "//*[@id=\"attendance\"]/ul/li[1]/a")
+    @FindBy(xpath = "//*[@id=\"attendance\"]/ul/li[1]/a")
     private WebElement dailyLogButton;
 
     @FindBy(tagName = "h4")
@@ -20,8 +21,9 @@ public class attendanceDailyLogPage extends BasePage{
 
     public attendanceDailyLogPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(getWebDriver(),this);
+        PageFactory.initElements(getWebDriver(), this);
     }
+
     public void dailyLogPage() throws InterruptedException {
 
         Thread.sleep(2000);
@@ -31,9 +33,6 @@ public class attendanceDailyLogPage extends BasePage{
         dailyLogButton.click();
         Assert.assertEquals(pageHeading.getText(), "Daily Log", "Page heading does not match!");
 
-
-
         Thread.sleep(3000);
-
     }
 }

@@ -5,21 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class sidePage extends BasePage{
+public class sidePage extends BasePage {
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[2]/a")
     private WebElement jobDeskButton;
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[3]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[3]/a")
     private WebElement leaveButton;
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[4]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[4]/a")
     private WebElement attendanceButton;
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[5]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[5]/a")
     private WebElement activityLogButton;
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[6]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[6]/a")
     private WebElement holidayButton;
 
     public sidePage(WebDriver driver) {
@@ -50,5 +50,4 @@ public class sidePage extends BasePage{
 
         Thread.sleep(3000);
     }
-
 }

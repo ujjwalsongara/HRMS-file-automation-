@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class jobDeskPage  extends BasePage {
+public class jobDeskPage extends BasePage {
 
-    @FindBy (xpath = "//*[@id=\"sidebar\"]/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id=\"sidebar\"]/ul/li[2]/a")
     private WebElement jobDeskButton;
 
     @FindBy(tagName = "h4")
@@ -40,8 +40,9 @@ public class jobDeskPage  extends BasePage {
 
     public jobDeskPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(getWebDriver(),this);
+        PageFactory.initElements(getWebDriver(), this);
     }
+
     public void jobDesk() throws InterruptedException {
 
         Thread.sleep(2000);
@@ -74,7 +75,5 @@ public class jobDeskPage  extends BasePage {
 
 
         Thread.sleep(3000);
-
-
     }
 }

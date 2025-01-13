@@ -1,8 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.leavePage;
-import com.example.pages.leaveStatusPage;
+import com.example.pages.leavePages.leaveStatusPage;
 import com.example.pages.loginPage;
 import com.example.pages.logoutPage;
 import org.openqa.selenium.WebDriver;
@@ -14,8 +13,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class leaveStatusTest extends BaseTest {
+
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.leaveStatusPage leaveStatusPage;
+    private com.example.pages.leavePages.leaveStatusPage leaveStatusPage;
     private com.example.pages.logoutPage logoutPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
@@ -26,10 +26,10 @@ public class leaveStatusTest extends BaseTest {
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
-       leaveStatusPage = new leaveStatusPage(driver);
-       leaveStatusPage.leaveStatus();
+        leaveStatusPage = new leaveStatusPage(driver);
+        leaveStatusPage.leaveStatus();
 
         logoutPage = new logoutPage(driver);
         logoutPage.logoutScreen();
@@ -43,6 +43,4 @@ public class leaveStatusTest extends BaseTest {
             driver.quit();
         }
     }
-
-
 }

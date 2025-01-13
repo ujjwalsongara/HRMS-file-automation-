@@ -8,7 +8,11 @@ public class BasePage extends BaseTest {
 
     protected WebDriver driver;
 
-    public BasePage(WebDriver driver){this.driver = driver;}
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+    }
 
-    public WebDriver getWebDriver() { return this.driver; }
+    public WebDriver getWebDriver() {
+        return this.driver;
+    }
 }

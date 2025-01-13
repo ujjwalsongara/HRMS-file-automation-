@@ -16,15 +16,16 @@ public class loginTest extends BaseTest {
 
     @Test
     @Parameters("url")
-    public void FirstTest (@Optional String url) throws InterruptedException {
+    public void FirstTest(@Optional String url) throws InterruptedException {
         log.info("test started");
 
         WebDriver driver = getWebDriver();
 
         loginPage = new loginPage(driver, url);
-        loginPage.login(username,password);
+        loginPage.login(username, password);
 
     }
+
     @AfterTest
     public void afterTest() {
         log.info("test completed");
@@ -33,5 +34,4 @@ public class loginTest extends BaseTest {
             driver.quit();
         }
     }
-
 }
