@@ -1,7 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.employeesPagesAdmin.allEmployeePage;
+import com.example.pages.leaveSettingsPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -11,15 +11,16 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class allEmployeeTest extends BaseTest {
+public class leaveSettingsTest extends BaseTest {
 
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.employeesPagesAdmin.allEmployeePage allEmployeePage;
+    private com.example.pages.leaveSettingsPage leaveSettingsPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test
     @Parameters("url")
-    public void homePageTest(@Optional String url) throws InterruptedException {
+    public void LeaveSettings(@Optional String url) throws InterruptedException {
+
         log.info("test started");
 
         WebDriver driverTwo = getWebDriverTwo();
@@ -27,8 +28,9 @@ public class allEmployeeTest extends BaseTest {
         loginPage = new loginPage(driverTwo, url);
         loginPage.login(usernameTwo, passwordTwo);
 
-        allEmployeePage = new allEmployeePage(driverTwo);
-        allEmployeePage.allEmployee();
+        leaveSettingsPage = new leaveSettingsPage(driverTwo);
+        leaveSettingsPage.leaveSettings();
+
 
     }
 

@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/employeesPagesAdmin/allEmployeePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/loginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/profileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/profileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utils/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/utils/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/activityLogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/activityLogPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceDailyLogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceDailyLogPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceRequestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceRequestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceSummaryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/leavePages/leaveRequestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/leavePages/leaveRequestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/leavePages/leaveStatusPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/leavePages/leaveStatusPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/loginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/holidayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/holidayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveCalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveCalendarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveStatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveStatusTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/allEmployeePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/allEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/allEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/allEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/allEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/allEmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/allEmployeeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +48,28 @@
     "TestNG.LoginTest.FirstTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.activityLogTest.activityLog.executor": "Run",
+    "TestNG.allEmployeeTest.executor": "Run",
     "TestNG.allEmployeeTest.homePageTest.executor": "Run",
+    "TestNG.appSettingsTest.Designation.executor": "Run",
+    "TestNG.appSettingsTest.executor": "Run",
     "TestNG.attendanceDailyLogTest.executor": "Run",
     "TestNG.attendanceDailyLogTest.leaveRequest.executor": "Run",
     "TestNG.attendanceDetailsTest.attendanceRequest.executor": "Run",
     "TestNG.attendanceRequestTest.attendanceRequest.executor": "Run",
     "TestNG.attendanceSummaryTest.executor": "Run",
     "TestNG.dashBoardTestAdmin.homePageTest.executor": "Run",
+    "TestNG.designationTest.Designation.executor": "Run",
+    "TestNG.designationTest.executor": "Run",
+    "TestNG.employmentStatusTest.EmploymentStatus.executor": "Run",
+    "TestNG.employmentStatusTest.executor": "Run",
     "TestNG.holidayTest.activityLog.executor": "Run",
     "TestNG.homeTest.executor": "Run",
     "TestNG.homeTest.homePageTest.executor": "Run",
     "TestNG.jobDeskTest.executor": "Run",
     "TestNG.jobDeskTest.jobDeskPageTest.executor": "Run",
     "TestNG.leaveCalendarTest.executor": "Run",
+    "TestNG.leaveSettingsTest.LeaveSettings.executor": "Run",
+    "TestNG.leaveSettingsTest.executor": "Run",
     "TestNG.leaveStatusTest.executor": "Run",
     "TestNG.leaveTest.leaveTabTest.executor": "Run",
     "TestNG.loginTest.FirstTest.executor": "Run",
@@ -96,8 +91,8 @@
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.allEmployeeTest.homePageTest">
-    <configuration name="allEmployeeTest.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.leaveSettingsTest.LeaveSettings">
+    <configuration name="appSettingsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -106,25 +101,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.allEmployeeTest" />
-      <option name="METHOD_NAME" value="homePageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="attendanceDailyLogTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InfowindsHRMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.attendanceDailyLogTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.appSettingsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -132,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dashBoardTestAdmin.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="appSettingsTest.Designation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.dashBoardTestAdmin" />
-      <option name="METHOD_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.appSettingsTest" />
+      <option name="METHOD_NAME" value="Designation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginTest.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="designationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -159,16 +136,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.loginTest" />
-      <option name="METHOD_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.designationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="profileTest.homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="leaveSettingsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +153,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.profileTest" />
-      <option name="METHOD_NAME" value="homePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveSettingsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leaveSettingsTest.LeaveSettings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InfowindsHRMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveSettingsTest" />
+      <option name="METHOD_NAME" value="LeaveSettings" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -188,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.allEmployeeTest.homePageTest" />
-        <item itemvalue="TestNG.dashBoardTestAdmin.homePageTest" />
-        <item itemvalue="TestNG.loginTest.FirstTest" />
-        <item itemvalue="TestNG.profileTest.homePageTest" />
-        <item itemvalue="TestNG.attendanceDailyLogTest" />
+        <item itemvalue="TestNG.leaveSettingsTest.LeaveSettings" />
+        <item itemvalue="TestNG.leaveSettingsTest" />
+        <item itemvalue="TestNG.appSettingsTest.Designation" />
+        <item itemvalue="TestNG.appSettingsTest" />
+        <item itemvalue="TestNG.designationTest" />
       </list>
     </recent_temporary>
   </component>
