@@ -1,7 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.leaveSettingsPage;
+import com.example.pages.settingsPagesAdmin.leaveSettingsPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class leaveSettingsTest extends BaseTest {
 
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.leaveSettingsPage leaveSettingsPage;
+    private com.example.pages.settingsPagesAdmin.leaveSettingsPage leaveSettingsPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test

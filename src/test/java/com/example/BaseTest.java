@@ -51,7 +51,7 @@ public class BaseTest {
         option.addArguments("--remote-allow-origins=*");
 //        option.addArguments("--headless=new");
         driver = new ChromeDriver(option);
-        driverTwo = new ChromeDriver(option);
+//        driverTwo = new ChromeDriver(option);
         return driver;
 
     }
@@ -63,7 +63,6 @@ public class BaseTest {
         option.addArguments("--remote-allow-origins=*");
 //        option.addArguments("--headless=new");
         driverTwo = new ChromeDriver(option);
-
         return driverTwo;
 
     }
