@@ -41,8 +41,8 @@ public class attendanceSettingPage extends BasePage {
         super(driver);
         PageFactory.initElements(getWebDriver(), this);
     }
-    public void attendanceSetting() throws InterruptedException {
 
+    public void attendanceSetting() throws InterruptedException {
 
         Thread.sleep(2000);
         settingButton.click();

@@ -15,7 +15,7 @@ public class payrollSettingTest extends BaseTest {
 
     private com.example.pages.loginPage loginPage;
     private com.example.pages.settingsPagesAdmin.payrollSettingPage payrollSettingPage;
-    private Logger log = LoggerFactory.getLogger(loginTest.class);
+    private final Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test
     @Parameters("url")
@@ -41,6 +41,4 @@ public class payrollSettingTest extends BaseTest {
             driverTwo.quit();
         }
     }
-
-
 }

@@ -6,31 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/appSettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/appSettingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/attendancePages/attendanceRequestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/attendancePages/attendanceRequestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/leaveSettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/leaveSettingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/LeaveRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/attendanceSettingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/attendanceSettingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/appSettingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/appSettingsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveCalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveCalendarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveSettingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveSettingsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/allEmployeePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/appSettingsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceRequestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendancePages/attendanceRequestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/leaveSettingsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/LeaveRequestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/LeaveRequestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/appSettingsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/appSettingsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveCalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveCalendarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveSettingsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/leaveSettingsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceSettingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceSettingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/dashBoardTestAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/dashBoardTestAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/importTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/importTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/payrollSettingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/payrollSettingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/dashBoardTestAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/dashBoardTestAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/importTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/importTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/loginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/payrollSettingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/payrollSettingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +86,7 @@
     &quot;TestNG.leaveSettingsTest.LeaveSettings.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.leaveSettingsTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.leaveStatusTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveStatusTest.leaveTabTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.leaveTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.leaveTest.leaveTabTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.loginTest.FirstTest.executor&quot;: &quot;Run&quot;,
@@ -167,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="importTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="leaveStatusTest.leaveTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -176,15 +164,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.importTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveStatusTest" />
+      <option name="METHOD_NAME" value="leaveTabTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="importTest.PayrollSetting" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -193,9 +182,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.importTest" />
-      <option name="METHOD_NAME" value="PayrollSetting" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.loginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -205,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/mahen/IdeaProjects/HRMSAutomation/testng.xml" />
+        <item itemvalue="TestNG.loginTest" />
+        <item itemvalue="TestNG.leaveStatusTest.leaveTabTest" />
         <item itemvalue="TestNG.attendanceRequestTest.attendanceRequest" />
         <item itemvalue="TestNG.attendanceRequestTest" />
-        <item itemvalue="TestNG.importTest.PayrollSetting" />
-        <item itemvalue="TestNG.importTest" />
       </list>
     </recent_temporary>
   </component>

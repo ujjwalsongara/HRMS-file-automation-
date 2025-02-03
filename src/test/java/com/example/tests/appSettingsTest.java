@@ -1,8 +1,8 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.settingsPagesAdmin.appSettingsPage;
 import com.example.pages.loginPage;
+import com.example.pages.settingsPagesAdmin.appSettingsPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

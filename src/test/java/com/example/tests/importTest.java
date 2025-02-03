@@ -31,6 +31,7 @@ public class importTest extends BaseTest {
         importPage.Import();
 
     }
+
     @AfterTest
     public void afterTest() {
         log.info("test completed");

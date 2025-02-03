@@ -3,11 +3,12 @@ package com.example.tests;
 import com.example.BaseTest;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class loginTest extends BaseTest {
 

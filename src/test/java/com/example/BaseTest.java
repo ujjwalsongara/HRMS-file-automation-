@@ -49,7 +49,7 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions option = new ChromeOptions();
         option.addArguments("--remote-allow-origins=*");
-//        option.addArguments("--headless=new");
+        option.addArguments("--headless=new");
         driver = new ChromeDriver(option);
 //        driverTwo = new ChromeDriver(option);
         return driver;
