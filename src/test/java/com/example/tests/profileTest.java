@@ -21,14 +21,29 @@ public class profileTest extends BaseTest {
     @Parameters("url")
     public void homePageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
+//
+//        WebDriver driver = getWebDriver();
+//
+//        loginPage = new loginPage(driver, url);
+//        loginPage.login(username, password);
+//
+//        profilePage = new profilePage(driver);
+//        profilePage.profileScreenPage();
+//
+//        driver.quit();
+//
+//        Thread.sleep(3000);
 
-        WebDriver driver = getWebDriver();
+        WebDriver driverTwo = getWebDriverTwo();
 
-        loginPage = new loginPage(driver, url);
-        loginPage.login(username, password);
+        loginPage = new loginPage(driverTwo, url);
+        loginPage.login(usernameTwo, passwordTwo);
 
-        profilePage = new profilePage(driver);
+        profilePage = new profilePage(driverTwo);
         profilePage.profileScreenPage();
+
+        driverTwo.close();
+        driverTwo.quit();
 
     }
 
@@ -41,3 +56,17 @@ public class profileTest extends BaseTest {
         }
     }
 }
+
+
+//public class RetryAnalyzer implements IRetryAnalyzer {
+//    private int retryCount = 0;
+//    private static final int maxRetryCount = 2;
+//
+//    public boolean retry(ITestResult result) {
+//        if (retryCount < maxRetryCount) {
+//            retryCount++;
+//            return true;
+//        }
+//        return false;
+//    }
+//}

@@ -1,7 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
-import com.example.pages.leavePages.leaveRequestPage;
+import com.example.pages.settingsPagesAdmin.importPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -11,32 +11,33 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class LeaveRequestTest extends BaseTest {
-
+public class importTest extends BaseTest {
     private com.example.pages.loginPage loginPage;
-    private com.example.pages.leavePages.leaveRequestPage leaveRequestPage;
+    private com.example.pages.settingsPagesAdmin.importPage importPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test
     @Parameters("url")
-    public void leaveRequest(@Optional String url) throws InterruptedException {
+    public void PayrollSetting(@Optional String url) throws InterruptedException {
+
         log.info("test started");
-        WebDriver driver = getWebDriver();
 
-        loginPage = new loginPage(driver, url);
-        loginPage.login(username, password);
+        WebDriver driverTwo = getWebDriverTwo();
 
-        leaveRequestPage = new leaveRequestPage(driver);
-        leaveRequestPage.LeaveRequest();
+        loginPage = new loginPage(driverTwo, url);
+        loginPage.login(usernameTwo, passwordTwo);
+
+        importPage = new importPage(driverTwo);
+        importPage.Import();
 
     }
 
     @AfterTest
     public void afterTest() {
         log.info("test completed");
-        if (driver != null) {
-            driver.close();
-            driver.quit();
+        if (driverTwo != null) {
+            driverTwo.close();
+            driverTwo.quit();
         }
     }
 }
